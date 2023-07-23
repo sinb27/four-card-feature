@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Prompt:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: Poppins;
+    color: hsl(234, 12%, 34%);
+}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem 7rem 2rem 7rem;
+}
+
+.head{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.headbold{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.headdesc{
+    font-size: 15px;
+    margin-top: 1rem;
+    width: 500px;
+    font-weight: 200;
+}
+
+.cardcon-l{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    width: 350px;
+    background-color: white;
+    height: 275px;
+    text-align: start;
+    box-shadow: 5px 15px 20px hsl(229, 6%, 66%);
+    border-radius: 5px;
+    margin-top: 9rem;
+}
+
+.cardcon-c{
+    margin: 0 -1rem;
+}
+
+.card-2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    width: 350px;
+    height: 275px;
+    background-color: white;
+    text-align: start;
+    box-shadow: 5px 15px 20px hsl(229, 6%, 66%);
+    border-radius: 5px;
+}
+
+.card-3{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    width: 350px;
+    height: 275px;
+    background-color: white;
+    text-align: start;
+    box-shadow: 5px 15px 20px hsl(229, 6%, 66%);
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+
+.cardcon-r{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    width: 350px;
+    height: 275px;
+    background-color: white;
+    text-align: start;
+    box-shadow: 5px 15px 20px hsl(229, 6%, 66%);
+    border-radius: 5px;
+    margin-top: 9rem;
+}
+    
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1.5rem;
+}
+
+.carddesc{
+    font-size: 15px;
+    font-weight: 200;
+    margin: 0 1.5rem;
+}
+
+img{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 375px){
+    .container{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    header{
+        width: 360px;
+        margin-bottom: -4rem;
+        margin-top: 4rem;
+    }
+
+    .head{
+        font-size: 1.5rem;
+    }
+
+    .headbold{
+        font-size: 1.5rem;
+    }
+
+    .headdesc{
+        width: 300px;
+    }
+
+    .cardcon-c{
+        margin: 2rem 0;
+    }
+
+    .cardcon-r{
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .cardcon-l{
+        margin-right: 3rem;
+    }
+
+    .cardcon-r{
+        margin-left: 3rem;
+    }
+}
